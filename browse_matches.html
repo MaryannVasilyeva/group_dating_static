@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<title>Netflix and Chill</title>
-		<link rel="stylesheet" href="stylesheets/bootstrap.css" />
-		<link rel="stylesheet" href="stylesheets/styles.css" />
-	</head>
+			<link rel="stylesheet" href="stylesheets/bootstrap.css" />
+	 		<link rel="stylesheet" href="stylesheets/styles.css" />
+			<link href='https://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'/>
+ 	</head>
 	<body>
 
 	<!-- Navigation -->
@@ -24,30 +25,60 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">My Profile</a></li>
-        <li><a href="#">Browse Matches</a></li>
-        <li><a href="#">Join A-List</a></li>
+        <li><a class="navlink" href="index.html">My Profile</a></li>
+        <li><a class="navlink" href="browse_matches.html">Browse Matches</a></li>
+        <li><a class="navlink" href="join_alist.html">Join A-List</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 	<!-- Header -->
-
+	
 		<div class="row">
-			<div class="header">
-		
+			<div class="header hidden-xs">
+				<img width=100% height=150px src="images/coverRed.jpg"/>
 			</div>
 		</div>
 
- 	<!-- Main Body (Matches) -->
-
 		<div class="row">
-			<div class="pages">
-			</div>
-			<div class="mainText">
+			<div class="col-xs-12 col-md-9">
+				<h1 class="lrgName hidden-xs">Your Name Here</h1>
+				<h1 class="smName visible-xs">Your Name Here</h1>
 			</div>
 		</div>
+	
+
+ 	<!-- Main Body (Browse Matches) -->
+ 	<div class"main">
+		<div class="row">
+			<div class="pages col-xs-12 col-md-3">
+				<div class="profile">
+					<img class="col-xs-12 col-md-3 pic img-responsive" src="images/t_profile.jpg" />
+				</div>
+				<div class="btn_row">
+					<button id="btn_1" class="btn btn-default"><a href="index.html">About</a></button>
+					<button class="btn btn-default"><a href="pic.html">Pictures</a></button>
+					<button class="btn btn-default"><a href="questions.html">Questions</a></button>
+				</div>
+				<div class="pagesText">	
+					<p>Lorem ipsum dolor sit amet, eleifend sollicitudin leo, ac mi, sagittis et massa.</p><p>Et montes ac, elit erat.</p> 
+					<p>Vulputate enim, vivamus pulvinar expedita.</p> 
+					<p>Fermentum dolorum erat, mus lacus, vitae augue a.</p>
+				</div>
+			</div>
+			<div class="mainText col-xs-12 col-md-9">
+				<h1>Matches</h1>
+				<p>Justo iaculis nulla. Scelerisque cursus nonummy, curabitur congue est. Amet maecenas ipsum, vel erat ac, nunc dignissim purus. Justo magna enim, penatibus enim. Dui penatibus augue, pede mattis scelerisque, eu lobortis.</p>
+				<p>Taciti consequat nonummy, ut enim. Mus sed justo. Gravida luctus, wisi massa, in risus. Mauris vel. Nascetur suscipit imperdiet, ipsum justo, ac a. Mattis purus ligula.</p>
+				<p>Gravida elementum, eget nullam. Vel sapien erat, duis mollis, in et lacus. Nunc scelerisque. Vehicula ligula, pellentesque pulvinar hendrerit. Porta nisl, at faucibus, vestibulum hac maecenas.</p>
+				<p>Lorem ipsum dolor sit amet, vitae fermentum. Nunc non. Pretium aliquam, urna arcu tristique, consequat sed non. Suscipit lorem nec, in lorem. A arcu, odio etiam turpis, erat ac erat.</p>
+				<p>Justo iaculis nulla. Scelerisque cursus nonummy, curabitur congue est. Amet maecenas ipsum, vel erat ac, nunc dignissim purus. Justo magna enim, penatibus enim. Dui penatibus augue, pede mattis scelerisque, eu lobortis.</p>
+				<p>Taciti consequat nonummy, ut enim. Mus sed justo. Gravida luctus, wisi massa, in risus. Mauris vel. Nascetur suscipit imperdiet, ipsum justo, ac a. Mattis purus ligula.</p>
+				<p>Gravida elementum, eget nullam. Vel sapien erat, duis mollis, in et lacus. Nunc scelerisque. Vehicula ligula, pellentesque pulvinar hendrerit. Porta nisl, at faucibus, vestibulum hac maecenas.</p>
+			</div>
+		</div>
+	</div>
 	</body>
 
 	<!-- Footer -->

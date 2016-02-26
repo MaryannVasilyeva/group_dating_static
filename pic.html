@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<title>Netflix and Chill</title>
-		<link rel="stylesheet" href="stylesheets/bootstrap.css" />
-		<link rel="stylesheet" href="stylesheets/styles.css" />
-	</head>
+			<link rel="stylesheet" href="stylesheets/bootstrap.css" />
+	 		<link rel="stylesheet" href="stylesheets/styles.css" />
+			<link href='https://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'/>
+ 	</head>
 	<body>
 
 	<!-- Navigation -->
@@ -24,30 +25,74 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">My Profile</a></li>
-        <li><a href="#">Browse Matches</a></li>
-        <li><a href="#">Join A-List</a></li>
+        <li><a class="navlink" href="index.html">My Profile</a></li>
+        <li><a class="navlink" href="browse_matches.html">Browse Matches</a></li>
+        <li><a class="navlink" href="join_alist.html">Join A-List</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 	<!-- Header -->
-
+	
 		<div class="row">
-			<div class="header">
-		
+			<div class="header hidden-xs">
+				<img width=100% height=150px src="images/coverRed.jpg"/>
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-md-9">
+				<h1 class="lrgName hidden-xs">Your Name Here</h1>
+				<h1 class="smName visible-xs">Your Name Here</h1>
+			</div>
+		</div>
+	
 
  	<!-- Main Body (Pictures) -->
 
+ 	<div class"main">
 		<div class="row">
-			<div class="pages">
+			<div class="pages col-xs-12 col-md-3">
+				<div class="profile">
+					<img class="col-xs-12 col-md-3 pic img-responsive" src="images/t_profile.jpg" />
+				</div>
+				<div class="btn_row">
+					<button id="btn_1" class="btn btn-default"><a href="index.html">About</a></button>
+					<button class="btn btn-default"><a href="pic.html">Pictures</a></button>
+					<button class="btn btn-default"><a href="questions.html">Questions</a></button>
+				</div>
+				<div class="pagesText">	
+					<p>Lorem ipsum dolor sit amet, eleifend sollicitudin leo, ac mi, sagittis et massa.</p><p>Et montes ac, elit erat.</p> 
+					<p>Vulputate enim, vivamus pulvinar expedita.</p> 
+					<p>Fermentum dolorum erat, mus lacus, vitae augue a.</p>
+				</div>
 			</div>
-			<div class="mainText">
+			<div class="mainText col-xs-12 col-md-9">
+				<h1>Pictures</h1>
+				<div class="row">
+					<img class="col-md-3" src="#">
+					<img class="col-md-3" src="#">	
+					<img class="col-md-3" src="#">
+					<img class="col-md-3" src="#">
+				</div>
+				<p>&nbsp;</p>
+				<div class="row">
+					<img class="col-md-3" src="#">
+					<img class="col-md-3" src="#">	
+					<img class="col-md-3" src="#">
+					<img class="col-md-3" src="#">
+				</div>
+				<p>&nbsp;</p>
+				<div class="row">
+					<img class="col-md-3" src="#">
+					<img class="col-md-3" src="#">	
+					<img class="col-md-3" src="#">
+					<img class="col-md-3" src="#">
+				</div>
 			</div>
 		</div>
+	</div>
 	</body>
 
 	<!-- Footer -->
