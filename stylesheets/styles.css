@@ -1,0 +1,82 @@
+/*
+Navigation
+*/
+
+.navbar {
+	border-bottom: 4px solid #3D2117;
+	margin-bottom: 0;
+}
+
+/*
+Header
+*/
+
+.header {
+	position: relative;
+	height: 100px;
+	width: 100%;
+}
+
+.lrgName {
+	text-align: center;
+	margin: auto;
+	color: #fff;
+	padding-bottom: 10px;
+	text-shadow: 2px 2px 2px #000;
+	font-family: 'Raleway', sans-serif;
+}
+.smName {
+	text-align: center;
+	margin: 20px 10px 150px 10px;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+}
+
+.pic {
+	border-radius: 100%;
+	width: 250px;
+	margin: -100px 0 10px 40px;
+	clear: both;
+}
+.profile {
+	background-color: #67C5C2;
+}
+
+/*
+Main Body
+*/
+
+.main {
+	height:100%;
+}
+.pages {
+	background-color: #67C5C2;
+	color: #fff;
+	height: 100%;
+	margin: ;
+}
+.btn{
+	margin: 20px 10px;
+}
+#btn_1 {
+	margin-left: 25px;
+}
+.pagesText {
+	padding: 25px;
+}
+.mainText {
+	background-color: #fff;
+	height: 100%;
+	padding: 50px 25px;
+}
+/*
+Footer
+*/
+
+.navbar-fixed-bottom{
+	border-top: 4px solid #3D2117;
+}
+.footer {
+	margin-top: 10px;
+	text-align: center;
+}
