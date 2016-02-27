@@ -63,11 +63,12 @@ Main Body
 }
 .pagesText {
 	padding: 25px;
+	text-align: center;
 }
 .mainText {
 	background-color: #fff;
 	height: 100%;
-	padding: 50px 25px;
+	padding: 40px 50px;
 }
 /*
 Footer
