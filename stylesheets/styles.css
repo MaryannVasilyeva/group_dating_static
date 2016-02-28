@@ -38,6 +38,13 @@ Header
 	margin: -100px 0 10px 40px;
 	clear: both;
 }
+.picMatches {
+	position: absolute;
+	top: 0;
+	left: 90;
+	right: 0;
+	bottom: 0;
+}
 .profile {
 	background-color: #67C5C2;
 }
@@ -61,6 +68,9 @@ Main Body
 #btn_1 {
 	margin-left: 25px;
 }
+#btn_2 {
+	color: #3D2117;
+}
 .pagesText {
 	padding: 25px;
 }
@@ -68,6 +78,10 @@ Main Body
 	background-color: #fff;
 	height: 100%;
 	padding: 50px 25px;
+}
+
+a {
+	color: #3D2117;
 }
 /*
 Footer
