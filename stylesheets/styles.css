@@ -83,6 +83,14 @@ Main Body
 a {
 	color: #3D2117;
 }
+
+.alignText {
+	left: 12.5%;
+}
+
+.questions {
+	color: #777;
+}
 /*
 Footer
 */
