@@ -79,6 +79,20 @@ Main Body
 	background-color: #fff;
 	height: 100%;
 	padding: 40px 50px;
+
+}
+
+a {
+	color: #3D2117;
+}
+
+.alignText {
+	left: 12.5%;
+}
+
+.questions {
+	color: #777;
+
 }
 
 a {
@@ -102,4 +116,11 @@ Footer
 .footer {
 	margin-top: 10px;
 	text-align: center;
+}
+
+/*
+Pictures Page
+*/
+.allpics {
+	margin-bottom: 15px;
 }
